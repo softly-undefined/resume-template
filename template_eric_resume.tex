@@ -1,0 +1,207 @@
+%Eric Bennett Resume Template
+%Created July 2023 (in taiwan while i was studying abroad lol)
+%Eric's Business
+
+
+%-----------------------------------------------------------------------------
+%-----------------------Don't Edit This Stuff!!!------------------------------
+%-----------------------------------------------------------------------------
+\documentclass{article}
+
+\usepackage{titlesec} %used for title format
+\usepackage{titling} %used for \theauthor command, simplifies title creation
+\usepackage[top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry} %controls the margins
+\usepackage{multicol} %used for the heading (work to do on it)
+\usepackage{enumitem} %used for the itemize sections of description
+
+%Title-Formatting: Sets the sizes and spacing for sections, subsections, and subsubsections
+\titleformat{\section}[runin]
+    {\fontsize{12}{12}\bfseries\uppercase}
+    {}
+    {0ex}
+    {}
+    [\titlerule]
+\titlespacing*{\section}
+    {0ex}{2.5ex}{0ex}
+
+\titleformat{\subsection}[runin]
+    {\bfseries}
+    {}
+    {0ex}
+    {}
+\titlespacing{\subsection}
+    {0ex}{0ex}{0ex}
+
+\titleformat{\subsubsection}[runin]
+    {\itshape}
+    {}
+    {0ex}
+    {}
+\titlespacing{\subsubsection}
+    {0ex}{-0.15ex}{0ex}
+
+
+%--------------------New commands and renewed commands--------------------
+
+%Changes the \maketitle command to place website name(s) on the top left of the page, 
+%email and phone number top middle, and address top right
+\renewcommand{\maketitle}[6]{
+    \begin{center}
+        {\LARGE\bfseries\theauthor}
+    \end{center}
+
+    \vspace{-20pt}
+
+    \begin{multicols}{3}
+        \begin{flushleft}
+            #1 \\
+            #2
+        \end{flushleft}
+
+        \begin{center}
+            #3 \\
+            #4
+        \end{center}
+
+        \begin{flushright}
+            #5 \\
+            #6
+        \end{flushright}
+    \end{multicols}
+}
+
+ %Creates a right-aligned date range in italics
+\renewcommand{\date}[1]{
+    \hfill{\normalsize\textit{#1}}
+}
+
+%Establishes the name of the award with a small gap after the company name
+\newcommand{\awardname}[1]{
+    \hspace{0em}
+    {#1}
+}
+
+%makes the \titlerule command, which makes horizontal lines, make a slightly
+%better looking and spaced out horizontal line
+\renewcommand{\titlerule}{
+    \vspace*{0.5ex}
+    \noindent\hrulefill\par
+}
+
+\setlist[itemize]{itemsep=-5pt, topsep=0pt} %Changes spacing of itemize calls
+\pagestyle{empty} %removes page numbers
+
+
+%-----------------------------------------------------------------------------
+%-----------------------Okay You Can Edit Now---------------------------------
+%-----------------------------------------------------------------------------
+
+\begin{document}
+
+    %--------------------Title--------------------
+    \title{R\'esum\'e}
+    \author{Your Name}
+
+    \maketitle{
+        www.website1.com
+    }{
+        www.website2.com
+    }{
+        youremail@email.com
+    }{
+        YOU-RNU-MBER
+    }{
+        Your Address Line 1
+    }{
+        Your Address Line 2
+    }
+
+    %Feel free to edit the names / amount of sections if wanted, the section names are
+    %simply a suggestion of section names you can use
+    %--------------------Objective--------------------
+    \section{Objective}
+        \subsection{}
+            Small blurb about you, your goals, and such (can be multiple lines)
+
+    %--------------------Education--------------------
+    \section{Education}
+
+        \subsection{University of Maryland, College Park}\date{August 2022 - Present}
+            \begin{itemize}
+                \item Bachelor of Science degree in Computer Science: Data Science Specialization
+                \item Bachelor of Arts degree in Chinese
+                \item {\bfseries Relevant Coursework: }{Course 1 Name, Course 2 Name, Course 3 Name}
+            \end{itemize}
+        \subsection{National Taiwan Normal University}\date{June 2023 - August 2023}
+            \begin{itemize}
+                \item Recipient of Huayu BEST Scholarship for Chinese Summer Language and Literature study abroad program
+            \end{itemize}
+    %    \subsection{School Name}\date{Date - Range} %Extra Template if needed later
+    %        \begin{itemize}
+    %            \item Description 1
+    %            \item Description 2
+    %        \end{itemize}
+    %--------------------Experience--------------------
+    \section{Experience}
+        \subsection{Company Name}\date{Date1 - Date2} %Extra Template if needed
+            \subsubsection{Position Name}
+                \begin{itemize}
+                    \item Description 1
+                    \item Description 2
+                \end{itemize}
+        \subsection{Company Name}\date{Date1 - Date2} %Extra Template if needed
+            \subsubsection{Position Name}
+                \begin{itemize}
+                    \item Description 1
+                    \item Description 2
+                \end{itemize}
+    %    \subsection{Company Name}\date{Date - Range} %Extra Template if needed later
+    %        \subsubsection{Position Name}
+    %            \begin{itemize}
+    %                \item Description 1
+    %                \item Description 2
+    %            \end{itemize}
+    %--------------------Extracurricular--------------------
+    \section{Extracurricular}
+
+        \subsection{Organization Name 1}\date{Date1 - Date2}
+            \subsubsection{Position 1 Name}
+                \begin{itemize}
+                    \item Description 1
+                    \item Description 2 
+                \end{itemize}
+            \subsubsection{Position 2 Name} %Note this is how to make multiple positions for one organization
+                \begin{itemize}
+                    \item Description 1
+                    \item Description 2
+                \end{itemize}
+        \subsection{Organization Name 2}\date{Date1 - Date2}
+            \subsubsection{Position Name}
+                \begin{itemize}
+                    \item Description
+                \end{itemize}
+    %    \subsection{Organization Name}\date{Date1 - Date2} %Extra Template if needed later
+    %        \subsubsection{Position Name}
+    %            \begin{itemize}
+    %                \item Description 1
+    %                \item Description 2
+    %            \end{itemize}
+    %--------------------Distinctions/Awards--------------------
+    \section{Distinctions/Awards}
+
+        \subsection{Organization of Award 1:}
+            \awardname{Name of Award 1}
+        \subsection{Organization of Award 2:}
+            \awardname{Name of Award 2}
+    %    \subsection{Organization of Award} %Extra Template if needed later
+    %        \awardname{Name of the award}
+    %--------------------Skills/Interests--------------------
+    \section{Skills/Interests}
+        \begin{itemize}
+            \item {\bfseries Technical:} Names of skills, maybe programming languages
+            \item {\bfseries Languages:} Language 1 (skill level), Language 2 (skill level)
+            \item {\bfseries Interests:} Interest 1, Interest 2, Interest 3
+            %\item {\bfseries Name of Another Section} Something else if you want %Extra Template if needed later
+        \end{itemize}
+
+\end{document}
