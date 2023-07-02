@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.3)  2 JUL 2023 13:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.3)  2 JUL 2023 14:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/ericbennett/Desktop/RESUME/NEW/Template/template_eric_resume.tex
-(/Users/ericbennett/Desktop/RESUME/NEW/Template/template_eric_resume.tex
+**/Users/ericbennett/Desktop/github/resume-template/template_eric_resume.tex
+(/Users/ericbennett/Desktop/github/resume-template/template_eric_resume.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -197,12 +197,12 @@ LaTeX Font Info:    ... okay on input line 99.
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./template_eric_resume.aux) ) 
 Here is how much of TeX's memory you used:
  1876 strings out of 478268
- 31361 string characters out of 5846348
+ 31370 string characters out of 5846348
  342591 words of memory out of 5000000
  20129 multiletter control sequences out of 15000+600000
  471161 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,5n,62p,260b,161s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 55i,5n,62p,263b,161s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
 Output written on template_eric_resume.pdf (1 page, 71275 bytes).
 PDF statistics:

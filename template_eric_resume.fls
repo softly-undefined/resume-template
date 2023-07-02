@@ -1,8 +1,8 @@
-PWD /Users/ericbennett/Desktop/RESUME/NEW/Template
+PWD /Users/ericbennett/Desktop/github/resume-template
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/ericbennett/Desktop/RESUME/NEW/Template/template_eric_resume.tex
+INPUT /Users/ericbennett/Desktop/github/resume-template/template_eric_resume.tex
 OUTPUT template_eric_resume.log
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
