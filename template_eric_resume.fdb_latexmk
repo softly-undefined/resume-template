@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1688277945 "/Users/ericbennett/Desktop/github/resume-template/template_eric_resume.tex" "template_eric_resume.pdf" "template_eric_resume" 1688277945
-  "/Users/ericbennett/Desktop/github/resume-template/template_eric_resume.tex" 1688277945 7196 64d6046ce21e929469ab1e67740eff6e ""
+["pdflatex"] 1688278942 "/Users/ericbennett/Desktop/github/resume-template/template_eric_resume.tex" "template_eric_resume.pdf" "template_eric_resume" 1688278943
+  "/Users/ericbennett/Desktop/github/resume-template/template_eric_resume.tex" 1688278942 6928 283b8eb0c7d1a3f9a2c6201d4c0515d9 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -28,8 +28,8 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1675462598 2826434 960cf767d12acfe6d2398883c9eb6da8 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "template_eric_resume.aux" 1688277945 2213 9df26109c7c290061b8f25ecf05bc27c "pdflatex"
-  "template_eric_resume.tex" 1688277945 7196 64d6046ce21e929469ab1e67740eff6e ""
+  "template_eric_resume.aux" 1688278943 2166 f71be1a72642d623c527807b571ce1e2 "pdflatex"
+  "template_eric_resume.tex" 1688278942 6928 283b8eb0c7d1a3f9a2c6201d4c0515d9 ""
   (generated)
   "template_eric_resume.aux"
   "template_eric_resume.log"
