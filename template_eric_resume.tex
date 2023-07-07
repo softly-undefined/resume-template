@@ -81,6 +81,10 @@
     {#1}
 }
 
+\newcommand{\relevantcoursework}{
+    {\bfseries Relevant Coursework: }
+}
+
 %makes the \titlerule command, which makes horizontal lines, make a slightly
 %better looking and spaced out horizontal line
 \renewcommand{\titlerule}{
@@ -127,14 +131,16 @@
     \section{Education}
 
         \subsection{School Name}\date{Date1 - Date2}
-            \begin{itemize}
-                \item Name of Degree
-                \item {\bfseries Relevant Coursework: }{Course 1 Name, Course 2 Name, Course 3 Name}
-            \end{itemize}
+            \subsubsection{Location}
+                \begin{itemize}
+                    \item Name of Degree
+                    \item \relevantcoursework{Course 1 Name, Course 2 Name, Course 3 Name}
+                \end{itemize}
         \subsection{School Name}\date{Date1 - Date2}
-            \begin{itemize}
-                \item Name of Degree
-            \end{itemize}
+            \subsubsection{Location}
+                \begin{itemize}
+                    \item Name of Degree
+                \end{itemize}
     %    \subsection{School Name}\date{Date - Range} %Extra Template if needed later
     %        \begin{itemize}
     %            \item Description 1
